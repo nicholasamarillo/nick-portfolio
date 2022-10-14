@@ -5,14 +5,17 @@
     font-family: 'Times New Roman', Times, serif
 }
 
+body{
+    background-color: navy;
+}
+
 .container{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 900px;
+    height: 700px;
     width: 100%;
-    background-color: red;
 }
 
 .sec-containers{
@@ -22,3 +25,8 @@
     height: 500px;
 }
 
+.coffeecontainer{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
