@@ -17,5 +17,7 @@ const coffeeFacts = [
 
 function newFact(){
     const randomFact = Math.floor(Math.random() * (coffeeFacts.length));
-    document.getElementsById('fact').innerHTML = coffeeFacts[randomFact];
+    document.getElementsById('factDisplay').innerHTML = coffeeFacts[randomFact];
 };
+
+newFact();
